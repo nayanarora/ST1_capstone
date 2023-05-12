@@ -8,7 +8,7 @@ Things to note:
 
 
 Important:
-4. On hitting predict, the program will appear to rerun all the analyses. Do not freak out. It is the way it is developed for now and needs further refinements to improve overall runtime. It just takes lonoger because of the Streamlit refresh but it will give you an answer 100%.
+ - 4. On hitting predict, the program will appear to rerun all the analyses. Do not freak out. It is the way it is developed for now and needs further refinements to improve overall runtime. It just takes lonoger because of the Streamlit refresh but it will give you an answer 100%.
 
 
 External libraries you may need to install on your local computer:
@@ -17,6 +17,6 @@ External libraries you may need to install on your local computer:
 And lastly do - from streamlit_pandas_profiling import st_profile_report
 
 For preprocessing:
- !pip install git+https://github.com/laxmimerit/preprocess_kgptalkie.git --upgrade --force-reinstall
- And Then use - import preprocess_kgptalkie as ps
+  - !pip install git+https://github.com/laxmimerit/preprocess_kgptalkie.git --upgrade --force-reinstall
+  - And Then use - import preprocess_kgptalkie as ps
  
