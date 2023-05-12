@@ -402,7 +402,7 @@ with st.container():
     st.write(accuracy_score(y_test, y_pred))
 
 #Model Performance Evaluation Metric 1 - Classification Report
-    st.write(classification_report(y_test, y_pred, labels=[1,2,3]))
+    st.write(classification_report(y_test, y_pred))
 
     left_column,right_column = st.columns(2)
     with left_column:
